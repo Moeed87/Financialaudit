@@ -1,0 +1,518 @@
+{
+  "metadata": {
+    "year": 2025,
+    "last_updated": "2025-07-18",
+    "source": "Canada Revenue Agency, KPMG LLP, TaxTips.ca",
+    "notes": [
+      "Federal tax rates: 2.7% indexation factor applied",
+      "Federal rate reduction: 15% to 14% effective July 1, 2025 (14.5% blended rate for 2025)",
+      "Provincial rates vary by province with different indexation factors",
+      "All dollar amounts are in Canadian dollars",
+      "Rates apply to taxable income (after deductions and credits)"
+    ]
+  },
+  "federal": {
+    "tax_brackets": [
+      {
+        "min_income": 0,
+        "max_income": 57375,
+        "rate": 14.5,
+        "notes": "Blended rate for 2025 due to mid-year reduction from 15% to 14%"
+      },
+      {
+        "min_income": 57376,
+        "max_income": 114750,
+        "rate": 20.5,
+        "notes": "Second federal bracket"
+      },
+      {
+        "min_income": 114751,
+        "max_income": 177882,
+        "rate": 26.0,
+        "notes": "Third federal bracket"
+      },
+      {
+        "min_income": 177883,
+        "max_income": 253414,
+        "rate": 29.0,
+        "notes": "Fourth federal bracket with personal amount clawback"
+      },
+      {
+        "min_income": 253415,
+        "max_income": null,
+        "rate": 33.0,
+        "notes": "Top federal bracket"
+      }
+    ],
+    "indexation_factor": 2.7,
+    "basic_personal_amount": {
+      "minimum": 14538,
+      "maximum": 16129,
+      "clawback_start": 177882,
+      "clawback_end": 253414
+    }
+  },
+  "provinces": {
+    "british_columbia": {
+      "name": "British Columbia",
+      "abbreviation": "BC",
+      "tax_brackets": [
+        {
+          "min_income": 0,
+          "max_income": 49279,
+          "rate": 5.06
+        },
+        {
+          "min_income": 49280,
+          "max_income": 98560,
+          "rate": 7.70
+        },
+        {
+          "min_income": 98561,
+          "max_income": 113158,
+          "rate": 10.50
+        },
+        {
+          "min_income": 113159,
+          "max_income": 137407,
+          "rate": 12.29
+        },
+        {
+          "min_income": 137408,
+          "max_income": 186306,
+          "rate": 14.70
+        },
+        {
+          "min_income": 186307,
+          "max_income": 259829,
+          "rate": 16.80
+        },
+        {
+          "min_income": 259830,
+          "max_income": null,
+          "rate": 20.50
+        }
+      ],
+      "indexation_factor": 2.8
+    },
+    "alberta": {
+      "name": "Alberta",
+      "abbreviation": "AB",
+      "tax_brackets": [
+        {
+          "min_income": 0,
+          "max_income": 151234,
+          "rate": 10.00
+        },
+        {
+          "min_income": 151235,
+          "max_income": 181481,
+          "rate": 12.00
+        },
+        {
+          "min_income": 181482,
+          "max_income": 241974,
+          "rate": 13.00
+        },
+        {
+          "min_income": 241975,
+          "max_income": 362961,
+          "rate": 14.00
+        },
+        {
+          "min_income": 362962,
+          "max_income": null,
+          "rate": 15.00
+        }
+      ],
+      "indexation_factor": 2.0,
+      "notes": "2.0% indexation cap introduced for 2025"
+    },
+    "saskatchewan": {
+      "name": "Saskatchewan",
+      "abbreviation": "SK",
+      "tax_brackets": [
+        {
+          "min_income": 0,
+          "max_income": 53463,
+          "rate": 10.50
+        },
+        {
+          "min_income": 53464,
+          "max_income": 152750,
+          "rate": 12.50
+        },
+        {
+          "min_income": 152751,
+          "max_income": null,
+          "rate": 14.50
+        }
+      ],
+      "indexation_factor": 2.7
+    },
+    "manitoba": {
+      "name": "Manitoba",
+      "abbreviation": "MB",
+      "tax_brackets": [
+        {
+          "min_income": 0,
+          "max_income": 47564,
+          "rate": 10.80
+        },
+        {
+          "min_income": 47565,
+          "max_income": 101200,
+          "rate": 12.75
+        },
+        {
+          "min_income": 101201,
+          "max_income": null,
+          "rate": 17.40
+        }
+      ],
+      "indexation_factor": 1.2,
+      "notes": "Re-introduced indexation effective January 1, 2025"
+    },
+    "ontario": {
+      "name": "Ontario",
+      "abbreviation": "ON",
+      "tax_brackets": [
+        {
+          "min_income": 0,
+          "max_income": 52886,
+          "rate": 5.05
+        },
+        {
+          "min_income": 52887,
+          "max_income": 105775,
+          "rate": 9.15
+        },
+        {
+          "min_income": 105776,
+          "max_income": 150000,
+          "rate": 11.16
+        },
+        {
+          "min_income": 150001,
+          "max_income": 220000,
+          "rate": 12.16
+        },
+        {
+          "min_income": 220001,
+          "max_income": null,
+          "rate": 13.16
+        }
+      ],
+      "indexation_factor": 2.8,
+      "surtax": {
+        "first_surtax": {
+          "rate": 20,
+          "threshold": 5710
+        },
+        "second_surtax": {
+          "rate": 36,
+          "threshold": 7307,
+          "notes": "Applied in addition to 20% surtax (total 56%)"
+        }
+      },
+      "health_premium": {
+        "applies_to_income_over": 20000,
+        "notes": "Separate health premium applies to residents with income over $20,000"
+      }
+    },
+    "quebec": {
+      "name": "Quebec",
+      "abbreviation": "QC",
+      "tax_brackets": [
+        {
+          "min_income": 0,
+          "max_income": 53255,
+          "rate": 14.00
+        },
+        {
+          "min_income": 53256,
+          "max_income": 106495,
+          "rate": 19.00
+        },
+        {
+          "min_income": 106496,
+          "max_income": 129590,
+          "rate": 24.00
+        },
+        {
+          "min_income": 129591,
+          "max_income": null,
+          "rate": 25.75
+        }
+      ],
+      "indexation_factor": 2.85,
+      "notes": "Quebec residents file separate provincial tax return and pay Health Services Fund"
+    },
+    "new_brunswick": {
+      "name": "New Brunswick",
+      "abbreviation": "NB",
+      "tax_brackets": [
+        {
+          "min_income": 0,
+          "max_income": 51306,
+          "rate": 9.40
+        },
+        {
+          "min_income": 51307,
+          "max_income": 102614,
+          "rate": 14.00
+        },
+        {
+          "min_income": 102615,
+          "max_income": 190060,
+          "rate": 16.00
+        },
+        {
+          "min_income": 190061,
+          "max_income": null,
+          "rate": 19.50
+        }
+      ],
+      "indexation_factor": 2.7
+    },
+    "nova_scotia": {
+      "name": "Nova Scotia",
+      "abbreviation": "NS",
+      "tax_brackets": [
+        {
+          "min_income": 0,
+          "max_income": 30507,
+          "rate": 8.79
+        },
+        {
+          "min_income": 30508,
+          "max_income": 61015,
+          "rate": 14.95
+        },
+        {
+          "min_income": 61016,
+          "max_income": 95883,
+          "rate": 16.67
+        },
+        {
+          "min_income": 95884,
+          "max_income": 154650,
+          "rate": 17.50
+        },
+        {
+          "min_income": 154651,
+          "max_income": null,
+          "rate": 21.00
+        }
+      ],
+      "indexation_factor": 3.1,
+      "notes": "Introduced indexation effective January 1, 2025"
+    },
+    "prince_edward_island": {
+      "name": "Prince Edward Island",
+      "abbreviation": "PE",
+      "tax_brackets": [
+        {
+          "min_income": 0,
+          "max_income": 33328,
+          "rate": 9.50
+        },
+        {
+          "min_income": 33329,
+          "max_income": 64656,
+          "rate": 13.47
+        },
+        {
+          "min_income": 64657,
+          "max_income": 105000,
+          "rate": 16.60
+        },
+        {
+          "min_income": 105001,
+          "max_income": 140000,
+          "rate": 17.62
+        },
+        {
+          "min_income": 140001,
+          "max_income": null,
+          "rate": 19.00
+        }
+      ],
+      "indexation_factor": null,
+      "notes": "Does not index tax brackets. Raised thresholds and adjusted rates for 2025"
+    },
+    "newfoundland_and_labrador": {
+      "name": "Newfoundland and Labrador",
+      "abbreviation": "NL",
+      "tax_brackets": [
+        {
+          "min_income": 0,
+          "max_income": 44192,
+          "rate": 8.70
+        },
+        {
+          "min_income": 44193,
+          "max_income": 88382,
+          "rate": 14.50
+        },
+        {
+          "min_income": 88383,
+          "max_income": 157792,
+          "rate": 15.80
+        },
+        {
+          "min_income": 157793,
+          "max_income": 220910,
+          "rate": 17.80
+        },
+        {
+          "min_income": 220911,
+          "max_income": 282214,
+          "rate": 19.80
+        },
+        {
+          "min_income": 282215,
+          "max_income": 564429,
+          "rate": 20.80
+        },
+        {
+          "min_income": 564430,
+          "max_income": 1128858,
+          "rate": 21.30
+        },
+        {
+          "min_income": 1128859,
+          "max_income": null,
+          "rate": 21.80
+        }
+      ],
+      "indexation_factor": 2.3
+    },
+    "yukon": {
+      "name": "Yukon",
+      "abbreviation": "YT",
+      "tax_brackets": [
+        {
+          "min_income": 0,
+          "max_income": 57375,
+          "rate": 6.40
+        },
+        {
+          "min_income": 57376,
+          "max_income": 114750,
+          "rate": 9.00
+        },
+        {
+          "min_income": 114751,
+          "max_income": 177882,
+          "rate": 10.90
+        },
+        {
+          "min_income": 177883,
+          "max_income": 500000,
+          "rate": 12.80
+        },
+        {
+          "min_income": 500001,
+          "max_income": null,
+          "rate": 15.00
+        }
+      ],
+      "indexation_factor": 2.7
+    },
+    "northwest_territories": {
+      "name": "Northwest Territories",
+      "abbreviation": "NT",
+      "tax_brackets": [
+        {
+          "min_income": 0,
+          "max_income": 51964,
+          "rate": 5.90
+        },
+        {
+          "min_income": 51965,
+          "max_income": 103930,
+          "rate": 8.60
+        },
+        {
+          "min_income": 103931,
+          "max_income": 168967,
+          "rate": 12.20
+        },
+        {
+          "min_income": 168968,
+          "max_income": null,
+          "rate": 14.05
+        }
+      ],
+      "indexation_factor": 2.7
+    },
+    "nunavut": {
+      "name": "Nunavut",
+      "abbreviation": "NU",
+      "tax_brackets": [
+        {
+          "min_income": 0,
+          "max_income": 54707,
+          "rate": 4.00
+        },
+        {
+          "min_income": 54708,
+          "max_income": 109413,
+          "rate": 7.00
+        },
+        {
+          "min_income": 109414,
+          "max_income": 177881,
+          "rate": 9.00
+        },
+        {
+          "min_income": 177882,
+          "max_income": null,
+          "rate": 11.50
+        }
+      ],
+      "indexation_factor": 2.7
+    }
+  },
+  "combined_top_marginal_rates": {
+    "british_columbia": 53.50,
+    "alberta": 48.00,
+    "saskatchewan": 47.50,
+    "manitoba": 50.40,
+    "ontario": 53.53,
+    "quebec": 53.30,
+    "new_brunswick": 52.50,
+    "nova_scotia": 54.00,
+    "prince_edward_island": 48.50,
+    "newfoundland_and_labrador": 51.30,
+    "yukon": 48.50,
+    "northwest_territories": 47.05,
+    "nunavut": 44.50
+  },
+  "special_provisions": {
+    "capital_gains": {
+      "inclusion_rate": 50,
+      "notes": "50% of capital gains are included in taxable income"
+    },
+    "dividends": {
+      "eligible_grossup": 38,
+      "non_eligible_grossup": 15,
+      "notes": "Dividends are grossed up and then eligible for dividend tax credits"
+    },
+    "tax_credits": {
+      "basic_personal_amount": {
+        "2025": 16129,
+        "2024": 15705
+      },
+      "age_amount": {
+        "2025": 9028,
+        "2024": 8790
+      },
+      "disability_amount": {
+        "2025": 10138,
+        "2024": 9872
+      }
+    }
+  }
+}
